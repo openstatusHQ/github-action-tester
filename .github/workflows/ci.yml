@@ -18,4 +18,3 @@ jobs:
         uses: openstatushq/openstatus-github-action@cf90ca733d9290b26b3959e34bc1fbc0b7264dbc
         with:
           api_key: ${{ secrets.OPENSTATUS_API_KEY }}
-          config_path: 'openstatus.yml'
