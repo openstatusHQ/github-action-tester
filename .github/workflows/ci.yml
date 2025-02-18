@@ -15,6 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Run OpenStatus Synthetics CI
-        uses: openstatus/openstatus-github-action@v1
+        uses: openstatushq/openstatus-github-action@v1
         with:
           api_key: ${{ secrets.OPENSTATUS_API_KEY }}
